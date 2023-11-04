@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="book-list">
+      <h2>Book List</h2>
+      <ul id="book-list">
+        <!-- Book list will be populated dynamically -->
+      </ul>
+    </div>
+    <div class="add-book">
+      <h2>Add New Book</h2>
+      <form id="add-book-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="text" id="isbn" placeholder="ISBN" required>
+        <button type="submit">Add Book</button>
+      </form>
+    </div>
+    <div class="search">
+      <h2>Search for Books</h2>
+      <input type="text" id="search-input" placeholder="Search...">
+      <ul id="search-results">
+        <!-- Search results will be populated dynamically -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
